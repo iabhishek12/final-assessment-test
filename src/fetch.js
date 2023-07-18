@@ -1,36 +1,3 @@
-// import React, { useState, useEffect } from 'react';
-
-// const DataComponent = () => {
-//   const [data, setData] = useState([]);
-
-//   useEffect(() => {
-//     const fetchData = async () => {
-//       try {
-//         const response = await fetch('https://jsonplaceholder.typicode.com/users');
-//         const jsonData = await response.json();
-//         setData(jsonData);
-//       } catch (error) {
-//         console.error('Error fetching data:', error);
-//       }
-//     };
-
-//     fetchData();
-//   }, []);
-
-//   return (
-//     <div>
-//       {data.map(item => (
-//         <p key={item.id}>{item.name}</p>
-//       ))}
-//     </div>
-//   );
-// };
-
-// export default DataComponent;
-
-
-
-
 
 import React, { useState, useEffect } from 'react';
 
